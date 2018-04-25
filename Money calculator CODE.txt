@@ -1,0 +1,13 @@
+
+#get desired future value
+future_value = float(input('Enter the desired future value: '))
+#get interest rate
+rate = float(input('enter int rate: '))
+#get years money will appreciate
+years= int(input('enter number of years money will grow: '))
+#calculate the amount needed to deposit
+present_value = future_value / (1.0 + rate)**years
+                                       #display amount needed to deoposit
+print('you will need to deposit this amoount: ', present_value)
+                                       
+                                       
